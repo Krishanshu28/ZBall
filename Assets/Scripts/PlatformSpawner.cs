@@ -29,6 +29,7 @@ public class PlatformSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //to check if player is alive or not
         if(GameManager.instance.gameover == true)
         {
             CancelInvoke("SpawnPlatform");
