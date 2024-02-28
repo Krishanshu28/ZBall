@@ -59,7 +59,7 @@ public class PlatformSpawner : MonoBehaviour
             Instantiate(diamonds, new Vector3(pos.x, pos.y+1, pos.z), diamonds.transform.rotation);
         }
     }
-
+    //checking to spawn in z direction
     void SpawnZ()
     {
         Vector3 pos = lastpos;
