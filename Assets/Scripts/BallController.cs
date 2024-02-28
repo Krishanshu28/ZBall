@@ -6,7 +6,7 @@ public class BallController : MonoBehaviour
 {
     [SerializeField]
     private float speed;
-    // Start is called before the first frame update
+    
     
     Rigidbody rb;
 
