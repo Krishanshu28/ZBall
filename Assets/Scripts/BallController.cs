@@ -74,7 +74,7 @@ public class BallController : MonoBehaviour
         }
 
     }
-    
+    //to check for diamonds
     void OnTriggerEnter(Collider col) {
 
         if(col.gameObject.tag == "Diamond")
