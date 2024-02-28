@@ -80,6 +80,7 @@ public class BallController : MonoBehaviour
         if(col.gameObject.tag == "Diamond")
         {
             GameObject part = Instantiate(particle, col.gameObject.transform.position, Quaternion.identity) as GameObject;
+            //Playing sound on Diamond hit
             Sound.instance.coinsource.PlayOneShot(Sound.instance.coinSound);
             Destroy(col.gameObject);
             Destroy(part, 1f);
