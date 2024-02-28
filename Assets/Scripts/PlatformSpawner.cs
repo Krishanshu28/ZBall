@@ -45,7 +45,7 @@ public class PlatformSpawner : MonoBehaviour
             SpawnZ();
         }
     }
-
+    //checking to spawn in x direction
     void SpawnX()
     {
         Vector3 pos = lastpos;
