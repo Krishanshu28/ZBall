@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>Packages</RootNamespace>
-    <ProjectGuid>{B362538B-B933-14FC-A13F-B8893679E152}</ProjectGuid>
+    <ProjectGuid>{68BB4282-8871-4C8F-BB86-B7FD506E9344}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Rider.Editor</AssemblyName>
@@ -346,6 +346,9 @@
     </Reference>
     <Reference Include="UnityEditor.Graphs">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Android.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
@@ -743,19 +746,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{CF1306C0-E297-63AB-38EE-394D00E460A7}</Project>
+      <Project>{8F6CF461-31E7-DA80-2743-DF9BD5B7675E}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{D3892DD0-E493-09FC-7A12-742A279B2BBF}</Project>
+      <Project>{379E7951-FB50-FC0E-C3F8-268A12065A25}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{EB47A2C1-0096-3A76-5B1A-7BC385FDC541}</Project>
+      <Project>{CFAEBF2D-7D31-F806-1949-90B524B3F5F4}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{AA8F20DB-798C-CF39-4207-62C86A6C2F65}</Project>
+      <Project>{007A223E-FBF2-0E44-4842-86DA655619E7}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

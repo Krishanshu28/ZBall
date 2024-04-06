@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F6F3F6D2-B221-52BE-A34F-F84F15712402}</ProjectGuid>
+    <ProjectGuid>{46FA66F3-2CD8-1950-A8FC-8EAF2DE58223}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.TestTools.CodeCoverage.Editor</AssemblyName>
@@ -344,6 +344,9 @@
     </Reference>
     <Reference Include="UnityEditor.Graphs">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Android.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
@@ -744,31 +747,31 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{D3892DD0-E493-09FC-7A12-742A279B2BBF}</Project>
+      <Project>{379E7951-FB50-FC0E-C3F8-268A12065A25}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{CF1306C0-E297-63AB-38EE-394D00E460A7}</Project>
+      <Project>{8F6CF461-31E7-DA80-2743-DF9BD5B7675E}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
-      <Project>{3A56D739-323A-A5C4-8F10-601CA68E3B80}</Project>
+      <Project>{4D19DC99-AE87-20CA-091F-E2B4C6586D65}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
-      <Project>{4E850D3E-C7A5-BF79-27AC-B9A4B84C0C2E}</Project>
+      <Project>{DD56FD1B-2B84-9FB9-5CF5-E7B6FCA7A7C7}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Settings.Editor.csproj">
-      <Project>{AD2CBFB5-01F7-5BAA-22C9-3C89B8365760}</Project>
+      <Project>{C23022A6-511F-8F0A-7E83-BBDCB47907AD}</Project>
       <Name>Unity.Settings.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{EB47A2C1-0096-3A76-5B1A-7BC385FDC541}</Project>
+      <Project>{CFAEBF2D-7D31-F806-1949-90B524B3F5F4}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{AA8F20DB-798C-CF39-4207-62C86A6C2F65}</Project>
+      <Project>{007A223E-FBF2-0E44-4842-86DA655619E7}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A230A3BA-577D-0131-718A-0B7EDBE5DBDE}</ProjectGuid>
+    <ProjectGuid>{2FF47D03-E38C-070D-FA5D-03BA7A3FA82A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Timeline</AssemblyName>
@@ -698,7 +698,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{DE0CED78-5991-428C-6009-7FF493C77DA4}</Project>
+      <Project>{FBD57B33-1AF3-581F-6219-19D66E3CB191}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>
